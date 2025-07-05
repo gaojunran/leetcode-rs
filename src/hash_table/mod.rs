@@ -1,0 +1,9 @@
+mod contains_duplicate_ii;
+mod group_anagrams_1;
+mod happy_number;
+mod isomorphic_strings;
+mod longest_consecutive_sequence;
+mod ransom_note;
+mod two_sum;
+mod valid_anagram;
+mod word_pattern;
