@@ -1,5 +1,6 @@
 mod best_time_to_buy_and_sell_stock;
 mod best_time_to_buy_and_sell_stock_ii;
+mod find_the_index_of_the_first_occurence_in_a_string;
 mod gas_station;
 mod h_index;
 mod integer_to_roman;
@@ -12,5 +13,7 @@ mod merge_sorted_array;
 mod remove_duplicates_from_sorted_array;
 mod remove_duplicates_from_sorted_array_ii;
 mod remove_element;
+mod reverse_words_in_a_string;
 mod roman_to_integer;
 mod rotate_array;
+mod zigzag_conversion;
