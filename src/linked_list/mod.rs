@@ -3,6 +3,8 @@ mod box_linkedlist;
 mod linked_list_cycle;
 mod merge_two_sorted_lists;
 // mod rc_refcell_linkedlist;
+mod partition_list;
 mod remove_duplicates_from_sorted_list;
 mod remove_nth_node_from_end_of_list;
 mod reverse_linked_list;
+mod rotate_list;
