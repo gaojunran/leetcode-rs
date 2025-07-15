@@ -1,3 +1,7 @@
+mod average_of_levels_in_binary_tree;
+mod binary_tree_level_order_traversal;
+mod binary_tree_right_side_view;
+mod binary_tree_zigzag_level_order_traversal;
 mod construct_binary_tree_from_inorder_and_postorder_traversal;
 mod construct_binary_tree_from_preorder_and_inorder_traversal;
 mod invert_binary_tree;

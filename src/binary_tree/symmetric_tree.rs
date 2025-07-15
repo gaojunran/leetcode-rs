@@ -45,3 +45,37 @@ impl Solution {
         }
     }
 }
+
+// use std::cell::RefCell;
+// use std::rc::Rc;
+// use std::collections::VecDeque;
+
+// impl Solution {
+//     pub fn is_symmetric(root: Option<Rc<RefCell<TreeNode>>>) -> bool {
+//         let mut queue = VecDeque::new();
+
+//         if let Some(node) = root {
+//             let node = node.borrow();
+//             queue.push_back((node.left.clone(), node.right.clone()));
+//         }
+
+//         while let Some((t1, t2)) = queue.pop_front() {
+//             match (t1, t2) {
+//                 (None, None) => continue,
+//                 (Some(a), Some(b)) => {
+//                     let a = a.borrow();
+//                     let b = b.borrow();
+//                     if a.val != b.val {
+//                         return false;
+//                     }
+//                     // 保持对称结构地入队
+//                     queue.push_back((a.left.clone(), b.right.clone()));
+//                     queue.push_back((a.right.clone(), b.left.clone()));
+//                 }
+//                 _ => return false, // 一个有值一个没值
+//             }
+//         }
+
+//         true
+//     }
+// }
