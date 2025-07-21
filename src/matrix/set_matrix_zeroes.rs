@@ -30,3 +30,32 @@ impl Solution {
         });
     }
 }
+
+// impl Solution {
+//     pub fn set_zeroes(matrix: &mut Vec<Vec<i32>>) {
+//         let rows = matrix.len();
+//         let cols = matrix[0].len();
+
+//         let mut zero_rows = vec![false; rows];
+//         let mut zero_cols = vec![false; cols];
+
+//         // 第一步：标记要清零的行和列
+//         for (i, row) in matrix.iter().enumerate() {
+//             for (j, &val) in row.iter().enumerate() {
+//                 if val == 0 {
+//                     zero_rows[i] = true;
+//                     zero_cols[j] = true;
+//                 }
+//             }
+//         }
+
+//         // 第二步：一口气清零
+//         for i in 0..rows {
+//             for j in 0..cols {
+//                 if zero_rows[i] || zero_cols[j] {
+//                     matrix[i][j] = 0;
+//                 }
+//             }
+//         }
+//     }
+// }
