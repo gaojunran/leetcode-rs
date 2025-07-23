@@ -1,4 +1,5 @@
 mod array_string;
+mod backtracking;
 mod binary_search;
 mod binary_tree;
 mod double_ptr;
